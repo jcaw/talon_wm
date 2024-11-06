@@ -33,7 +33,8 @@ key(ctrl-alt-win-u): user.snap_grow('down')
 key(ctrl-alt-win-i): user.snap_grow('up')
 key(ctrl-alt-win-o): user.snap_grow('right')
 
-key(ctrl-alt-win-shift-y): user.snap_shrink('left')
-key(ctrl-alt-win-shift-u): user.snap_shrink('down')
-key(ctrl-alt-win-shift-i): user.snap_shrink('up')
-key(ctrl-alt-win-shift-o): user.snap_shrink('right')
+# NOTE: I commented these out purely because they were causing keybind conflicts on Windows.
+# key(ctrl-alt-win-shift-y): user.snap_shrink('left')
+# key(ctrl-alt-win-shift-u): user.snap_shrink('down')
+# key(ctrl-alt-win-shift-i): user.snap_shrink('up')
+# key(ctrl-alt-win-shift-o): user.snap_shrink('right')
